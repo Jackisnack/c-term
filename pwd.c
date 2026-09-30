@@ -4,7 +4,6 @@
 #include <stddef.h>
 
 int main (int argc, char *argv[]) {
-    const char *pwd = (argc > 2) ? argv[1] : ".";
     if (argc != 1) {
         fprintf(stderr, "%s takes no arguments.\n", argv[0]);
         return EXIT_FAILURE;
