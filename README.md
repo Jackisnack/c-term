@@ -1,2 +1,2 @@
 # c-term
-Various terminal (bash) commands written in C
+A wrapper for bash commands in C
